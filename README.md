@@ -24,7 +24,10 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 ```css
 @import(exec(_init circle-progress))
 ```
-
+** For FSCSS Version 1.1.16+:**
+```css
+@import((*) from circle-progress) 
+```
 ---
 
 ### 🚀 Basic Usage
