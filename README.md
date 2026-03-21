@@ -235,13 +235,14 @@ FSCSS @define: https://fscss.devtem.org/define
 
 FSCSS Arrays: https://fscss.devtem.org/arrays
 
-
+FSCSS @Event
+https://fscss.devtem.org/event
 
 ---
 
 📝 Changelog
 
-v1.1.15+
+v1.1.15 up
 
 • Initial release
 • Built with `@define` plugin system
