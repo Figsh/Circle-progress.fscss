@@ -10,7 +10,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. **Include FSCSS**
 
@@ -30,7 +30,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 ```
 ---
 
-### 🚀 Basic Usage
+### Basic Usage
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/fscss@1.1.20/exec.min.js" defer></script>
@@ -54,7 +54,7 @@ This generates a circular progress arc representing 72%.
 
 ---
 
-### ⚙️ How It Works
+### How It Works
 
 The component is built using CSS conic-gradient to draw the progress arc.
 
@@ -70,7 +70,7 @@ A glowing animated dot follows the progress arc using rotation transforms.
 
 ---
 
-### 🎨 Customization
+### Customization
 
 The plugin exposes multiple helpers for customization.
 
@@ -113,7 +113,7 @@ This smoothly animates progress changes.
 
 ---
 
-**🎨 Color Variants**
+**Color Variants**
 
 Colors are controlled with CSS custom properties.
 
@@ -141,7 +141,7 @@ Colors are controlled with CSS custom properties.
 
 ---
 
-### 🌟 Complete Example
+### Complete Example
 ```html
 <!DOCTYPE html>
 <html>
@@ -174,7 +174,7 @@ body{
 
 ---
 
-### 📁 Source Code
+### Source Code
 
 File: circle-progress.fscss
 FSCSS Version: v1.1.15+
@@ -186,7 +186,7 @@ https://github.com/fscss-ttr/FSCSS
 
 ---
 
-### 🎨 Plugin Info
+### Plugin Info
 
 
 Name:	circle-progress
@@ -200,7 +200,7 @@ Type:	UI Component Plugin
 
 ---
 
-## 💡 Why Circle Progress?
+## Why Circle Progress?
 
 **Feature	Benefit**
 
@@ -214,7 +214,7 @@ FSCSS powered	Uses `@define` plugin system
 
 ---
 
-## 📋 Summary
+## Summary
 
 **Circle Progress** converts this simple FSCSS call:
 
@@ -240,7 +240,7 @@ https://fscss.devtem.org/event
 
 ---
 
-📝 Changelog
+Changelog
 
 v1.1.15 up
 
