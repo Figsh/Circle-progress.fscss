@@ -1,6 +1,6 @@
 {
   "name": "circle-progress",
-  "version": "1.1.15",
+  "version": "1.0.0",
   "description": "Animated circular progress component library for FSCSS using conic-gradient and CSS masks.",
   "extension": "fscss",
   "fscss_version": "^1.1.15",
@@ -25,9 +25,9 @@
       ]
     },
     "modules": [
-      "circle-progress.fscss"
+      "./circle-progress.fscss"
     ], 
-    "remote": "/circle-progress.fscss", 
+    "remote": "./circle-progress.fscss", 
   },
   "author": {
     "name": "figsh"
