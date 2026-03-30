@@ -1,0 +1,4 @@
+{
+  "main": "circle-progress", 
+  "helpers": ["exposed defined helpers"] 
+} 
