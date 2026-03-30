@@ -1,18 +1,44 @@
 {
   "name": "circle-progress",
-  "description": "fscss circle progress library",
+  "version": "1.1.15",
+  "description": "Animated circular progress component library for FSCSS using conic-gradient and CSS masks.",
   "extension": "fscss",
-  "fscss_version":"^1.1.22", 
-  "blocked_methods": "none", 
-  "repositor": "https://github.com/Figsh/Circle-progress.fscss", 
-  "issues": "", 
+  "fscss_version": "^1.1.15",
+  "blocked_methods": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Figsh/Circle-progress.fscss"
+  },
+  "bugs": {
+    "url": "https://github.com/Figsh/Circle-progress.fscss/issues"
+  },
   "file": {
-    "usage":{"directive": "circle-progress",
-    "helpers": ["exposed defined helpers"],
-    }, 
-    "modules": "src/*", 
-  }, 
+    "usage": {
+      "directive": "circle-progress",
+      "helpers": [
+        "progress-root",
+        "reset-progress-page",
+        "progress-range",
+        "progress-size",
+        "progress-stroke",
+        "progress-animate"
+      ]
+    },
+    "modules": [
+      "circle-progress.fscss"
+    ]
+  },
   "author": {
-    "name": "figsh", 
-  }
-} 
+    "name": "figsh"
+  },
+  "keywords": [
+    "fscss",
+    "css",
+    "progress",
+    "circular-progress",
+    "ui-component",
+    "plugin",
+    "conic-gradient"
+  ],
+  "license": "MIT"
+}
