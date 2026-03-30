@@ -1,4 +1,18 @@
 {
-  "main": "circle-progress", 
-  "helpers": ["exposed defined helpers"] 
+  "name": "circle-progress",
+  "description": "fscss circle progress library",
+  "extension": "fscss",
+  "fscss_version":"^1.1.22", 
+  "blocked_methods": "none", 
+  "repositor": "https://github.com/Figsh/Circle-progress.fscss", 
+  "issues": "", 
+  "file": {
+    "usage":{"directive": "circle-progress",
+    "helpers": ["exposed defined helpers"],
+    }, 
+    "modules": "src/*", 
+  }, 
+  "author": {
+    "name": "figsh", 
+  }
 } 
