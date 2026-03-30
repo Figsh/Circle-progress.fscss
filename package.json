@@ -26,7 +26,8 @@
     },
     "modules": [
       "circle-progress.fscss"
-    ]
+    ], 
+    "remote": "/circle-progress.fscss", 
   },
   "author": {
     "name": "figsh"
