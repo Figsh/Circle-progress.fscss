@@ -2,7 +2,7 @@
 
 > Animated circular progress component library for FSCSS (v1.1.15+)
 
-**Circle Progress** is a reusable radial progress indicator built entirely with CSS and FSCSS plugin logic.
+**Circle Progress** is a reusable radial progress indicator built entirely with CSS and FSCSS logic.
 It uses conic-gradient, CSS masks, and custom properties to generate a smooth circular progress arc with an animated glowing indicator.
 
 *No JavaScript required.*
@@ -20,7 +20,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 
 ---
 
-2. **Import the plugin**
+2. **Import the library**
 ```css
 @import(exec(_init circle-progress))
 ```
