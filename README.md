@@ -5,7 +5,6 @@
 **Circle Progress** is a reusable radial progress indicator built entirely with CSS and FSCSS logic.
 It uses conic-gradient, CSS masks, and custom properties to generate a smooth circular progress arc with an animated glowing indicator.
 
-*No JavaScript required.*
 
 
 ---
@@ -15,7 +14,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 1. **Include FSCSS**
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.1.20/exec.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
 ```
 
 ---
@@ -33,7 +32,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 ### Basic Usage
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.1.20/exec.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
 
 <style>
 @import(exec(_init circle-progress))
@@ -146,7 +145,7 @@ Colors are controlled with CSS custom properties.
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.1.20/exec.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
 
 <style>
 @import(exec(_init circle-progress))
@@ -181,12 +180,10 @@ FSCSS Version: v1.1.15+
 
 Repository:
 
-https://github.com/fscss-ttr/FSCSS
-
 
 ---
 
-### Plugin Info
+### module Info
 
 
 Name:	circle-progress
@@ -194,7 +191,7 @@ Extension:	.fscss
 Directive:	`@circle-progress()`
 Version:	1.1.15+
 Dependencies:	FSCSS v1.1.15+
-Type:	UI Component Plugin
+Type:	UI Component library
 
 
 
@@ -205,7 +202,7 @@ Type:	UI Component Plugin
 **Feature	Benefit**
 
 No JavaScript	Pure CSS implementation
-Reusable plugin	Initialize once, use anywhere
+Reusable module Initialize once, use anywhere
 Customizable	Size, colors, stroke, animation
 Lightweight	No external dependencies
 FSCSS powered	Uses `@define` plugin system
@@ -221,8 +218,6 @@ FSCSS powered	Uses `@define` plugin system
 `@circle-progress(.progress-circle)`
 
 Into a fully animated circular progress component using advanced CSS features.
-
-The plugin demonstrates how FSCSS can be used to create reusable UI components without JavaScript.
 
 
 ---
@@ -245,7 +240,7 @@ Changelog
 v1.1.15 up
 
 • Initial release
-• Built with `@define` plugin system
+• Built with `@define` system
 • Supports size, stroke, and animation utilities
 • Customizable color system via CSS variables
 
