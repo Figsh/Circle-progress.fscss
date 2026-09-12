@@ -14,7 +14,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 1. **Include FSCSS**
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 ```
 
 ---
@@ -32,7 +32,7 @@ It uses conic-gradient, CSS masks, and custom properties to generate a smooth ci
 ### Basic Usage
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 
 <style>
 @import(exec(_init circle-progress))
@@ -145,7 +145,7 @@ Colors are controlled with CSS custom properties.
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.0/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 
 <style>
 @import(exec(_init circle-progress))
