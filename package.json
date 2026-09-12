@@ -38,7 +38,8 @@
     "progress",
     "circular-progress",
     "ui-component",
-    "plugin",
+    "library",
+    "module", 
     "conic-gradient"
   ],
   "license": "MIT"
