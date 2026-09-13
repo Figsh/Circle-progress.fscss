@@ -2,6 +2,8 @@
 
 > Circular UI module for FSCSS — progress rings, pie charts, steps, multi-track, and themes.
 
+![showcase circle-progress.fscss](/circle-progress.jpg) 
+
 **Circle Progress** is a pure-CSS circular component library built with FSCSS `@define`.  
 It uses `conic-gradient`, CSS masks, and custom properties — no JavaScript required for rendering.
 
