@@ -35,6 +35,8 @@ HTML Example:
 
 ## Quick start
 
+[samples/example.html](samples/example.html)
+
 ```html
 <script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 
