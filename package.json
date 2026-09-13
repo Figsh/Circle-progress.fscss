@@ -1,0 +1,64 @@
+{
+  "name": "circle-progress",
+  "version": "2.0.0",
+  "description": "Circular UI module for FSCSS — progress rings, pie charts, steps, multi-track, and themes. Pure CSS via conic-gradient and masks.",
+  "extension": "fscss",
+  "fscss_version": "^1.1.15",
+  "blocked_methods": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Figsh/Circle-progress.fscss"
+  },
+  "bugs": {
+    "url": "https://github.com/Figsh/Circle-progress.fscss/issues"
+  },
+  "homepage": "https://github.com/Figsh/Circle-progress.fscss#readme",
+  "file": {
+    "usage": {
+      "directive": "circle-progress",
+      "helpers": [
+        "progress-root",
+        "progress-root-compat",
+        "reset-progress-page",
+        "progress-range",
+        "progress-size",
+        "progress-stroke",
+        "progress-animate",
+        "progress-colors",
+        "circle-progress",
+        "circle-pie",
+        "circle-pie-multi",
+        "circle-multi",
+        "circle-steps",
+        "steps-done",
+        "steps-total",
+        "circle-bars-host",
+        "progress-theme-mint",
+        "progress-theme-blue",
+        "progress-theme-amber",
+        "progress-theme-rose",
+        "progress-theme-violet"
+      ]
+    },
+    "modules": [
+      "./circle-progress.fscss"
+    ],
+    "remote": "./circle-progress.fscss"
+  },
+  "author": {
+    "name": "figsh"
+  },
+  "keywords": [
+    "fscss",
+    "css",
+    "progress",
+    "circular-progress",
+    "pie-chart",
+    "steps",
+    "conic-gradient",
+    "ui-component",
+    "library",
+    "module"
+  ],
+  "license": "MIT"
+}
