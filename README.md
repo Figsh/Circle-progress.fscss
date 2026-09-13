@@ -22,7 +22,9 @@ Compatible with **FSCSS v1.1.15+** (when `@define` shipped). Examples use the **
 ```css
 /* classic init */
 @import(exec(_init circle-progress))
+```
 
+```css
 /* or selective / wildcard (1.1.16+) */
 @import((*) from circle-progress)
 ```
