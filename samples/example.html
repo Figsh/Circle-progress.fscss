@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>circle-progress.fscss — modern circular module</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
+  <style>
+
+@import((*) from circle-progress)
+
+
+    @progress-root()
+    @circle-progress(.progress-circle)
+    @circle-pie(.circle-pie)
+    @circle-pie-multi(.circle-pie-multi)
+    @circle-steps(.circle-steps)
+
+    .p72 { @progress-range(72) }
+    .p41 { @progress-range(41) --progress-color-arc: #4d9fff; --progress-color-glow: rgba(77,159,255,.45); }
+    .p88 { @progress-range(88) --progress-color-arc: #ffb830; --progress-color-glow: rgba(255,184,48,.4); }
+    .p30 { @progress-range(30) --progress-color-arc: #ff5070; --progress-color-glow: rgba(255,80,112,.4); }
+
+    .steps-5 { @steps-done(5) @steps-total(8) }
+    .steps-3 { @steps-done(3) @steps-total(6) --progress-color-arc: #9d7eff; --progress-color-glow: rgba(157,126,255,.45); }
+
+    .pie-a { --pie-a: 30; --pie-b: 25; --pie-c: 20; --pie-d: 15; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--progress-color-bg);
+      color: var(--progress-color-value);
+      font-family: 'Syne', system-ui, sans-serif;
+      padding: 2.5rem 1.25rem 3rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.35rem;
+      font-weight: 800;
+      margin: 0 0 0.35rem;
+    }
+    .sub {
+      text-align: center;
+      color: var(--progress-color-label);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.75rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #12151c;
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 1.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.85rem;
+    }
+    .card h3 {
+      margin: 0;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--progress-color-label);
+    }
+    .card p {
+      margin: 0;
+      font-size: 0.75rem;
+      color: #6b7280;
+      text-align: center;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <h1>circle-progress.fscss</h1>
+  <p class="sub">Modern circular module · ring · pie · steps · multi </p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Progress ring</h3>
+      <div class="progress-circle p72">72%</div>
+      <p>@circle-progress + @progress-range</p>
+    </div>
+
+    <div class="card">
+      <h3>Blue ring</h3>
+      <div class="progress-circle p41">41%</div>
+      <p>Color override via CSS vars</p>
+    </div>
+
+    <div class="card">
+      <h3>Amber ring</h3>
+      <div class="progress-circle p88">88%</div>
+      <p>Theme via --progress-color-arc</p>
+    </div>
+
+    <div class="card">
+      <h3>Pie slice</h3>
+      <div class="circle-pie p30">30%</div>
+      <p>@circle-pie — solid fill</p>
+    </div>
+
+    <div class="card">
+      <h3>Multi pie</h3>
+      <div class="circle-pie-multi pie-a"></div>
+      <p>@circle-pie-multi — 4 slices</p>
+    </div>
+
+    <div class="card">
+      <h3>Steps 5/8</h3>
+      <div class="circle-steps steps-5">5/8</div>
+      <p>@circle-steps + @steps-done</p>
+    </div>
+
+    <div class="card">
+      <h3>Steps 3/6</h3>
+      <div class="circle-steps steps-3">3/6</div>
+      <p>Violet steps variant</p>
+    </div>
+
+    <div class="card">
+      <h3>Nested rings</h3>
+      <div class="progress-circle p72" style="--progress-size:200px">
+        <div class="progress-circle p41" style="--progress-size:120px;--progress-stroke:10px">41</div>
+      </div>
+      <p>Compose rings by nesting</p>
+    </div>
+  </div>
+</body>
+</html>
