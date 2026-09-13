@@ -6,6 +6,7 @@
 It uses `conic-gradient`, CSS masks, and custom properties — no JavaScript required for rendering.
 
 Compatible with **FSCSS v1.1.15+** (when `@define` shipped). Examples use the **1.2.1** runtime.
+We are using runtime only for those examples
 
 ---
 
@@ -13,6 +14,7 @@ Compatible with **FSCSS v1.1.15+** (when `@define` shipped). Examples use the **
 
 **1. Include FSCSS**
 
+HTML Example:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
 ```
