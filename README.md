@@ -18,7 +18,7 @@ We are using runtime only for those examples
 
 HTML Example:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.4/runtime.min.js" defer></script>
 ```
 
 **2. Import the module**
@@ -40,7 +40,7 @@ HTML Example:
 [samples/example.html](samples/example.html)
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.4/runtime.min.js" defer></script>
 
 <style>
 @import((*) from circle-progress)
@@ -178,7 +178,7 @@ Compose by nesting elements and overriding size/stroke:
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.4/runtime.min.js" defer></script>
 <style>
 @import((*) from circle-progress)
 
