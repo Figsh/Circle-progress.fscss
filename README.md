@@ -233,7 +233,8 @@ body { background: var(--progress-color-bg); color: var(--progress-color-value);
 ```
 libon circle-progress
 ```
-Installs helper snippets and demo
+For helper snippets and demo
+
 ---
 
 ## Related
