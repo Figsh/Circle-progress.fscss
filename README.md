@@ -211,7 +211,7 @@ body { background: var(--progress-color-bg); color: var(--progress-color-value);
 |--|--|
 | **Name** | circle-progress |
 | **File** | `circle-progress.fscss` |
-| **FSCSS** | `^1.1.15` (examples: 1.2.1) |
+| **FSCSS** | `^1.1.15+` (examples: 1.2.6) |
 | **Type** | UI component library |
 | **License** | MIT |
 
@@ -254,7 +254,7 @@ For helper snippets and demo
 - Added `@circle-pie`, `@circle-pie-multi`, `@circle-steps`, `@circle-multi`, `@circle-bars-host`
 - Renamed progress token to `--progress-value` (legacy `--progress-6fb4d3f` still set)
 - Theme helpers: mint, blue, amber, rose, violet
-- Docs and examples target FSCSS 1.2.1 runtime; minimum remains 1.1.15
+- Docs and examples target FSCSS 1.2.6+; minimum remains 1.1.15
 
 ### v1.0.0 (FSCSS 1.1.15)
 - Initial release: `@circle-progress`, range/size/stroke/animate helpers
