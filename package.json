@@ -3,7 +3,10 @@
   "version": "2.0.0",
   "description": "Circular UI module for FSCSS — progress rings, pie charts, steps, multi-track, and themes. Pure CSS via conic-gradient and masks.",
   "extension": "fscss",
-  "fscss_version": "^1.1.15",
+  "fscss_version": ">=1.1.15",
+  "engines": {
+    "fscss": ">=1.1.15"
+  },
   "blocked_methods": [],
   "repository": {
     "type": "git",
@@ -15,38 +18,41 @@
   "homepage": "https://github.com/Figsh/Circle-progress.fscss#readme",
   "file": {
     "usage": {
-      "directive": "circle-progress",
+      "directive": "",
       "helpers": [
-        "progress-root",
-        "progress-root-compat",
-        "reset-progress-page",
-        "progress-range",
-        "progress-size",
-        "progress-stroke",
-        "progress-animate",
-        "progress-colors",
-        "circle-progress",
-        "circle-pie",
-        "circle-pie-multi",
-        "circle-multi",
-        "circle-steps",
-        "steps-done",
-        "steps-total",
-        "circle-bars-host",
-        "progress-theme-mint",
-        "progress-theme-blue",
-        "progress-theme-amber",
-        "progress-theme-rose",
-        "progress-theme-violet"
+        "progress-root(root:root)",
+        "progress-root-compat()",
+        "reset-progress-page()",
+        "progress-range(val:75)",
+        "progress-size(size)",
+        "progress-stroke(size:14px)",
+        "progress-animate(time:1s)",
+        "progress-colors(arc, glow)",
+        "circle-progress(sel:.progress-circle)",
+        "circle-pie(sel:.circle-pie)",
+        "circle-pie-multi(sel:.circle-pie-multi)",
+        "circle-multi(sel:.circle-multi)",
+        "circle-steps(sel:.circle-steps)",
+        "steps-done(n:0)",
+        "steps-total(n:8)",
+        "circle-bars-host(sel:.circle-bars)",
+        "progress-theme-mint()",
+        "progress-theme-blue()",
+        "progress-theme-amber()",
+        "progress-theme-rose()",
+        "progress-theme-violet()"
       ]
     },
-    "modules": [
-      "./circle-progress.fscss"
-    ],
+    "modules": ["./circle-progress.fscss"],
     "remote": "./circle-progress.fscss"
   },
+  "xfcmd": {
+    "enable": "./xfcmds/enable.xfcmd",
+    "disable": "./xfcmds/disable.xfcmd"
+  },
   "author": {
-    "name": "figsh"
+    "name": "figsh",
+    "url": "https://github.com/Figsh"
   },
   "keywords": [
     "fscss",
