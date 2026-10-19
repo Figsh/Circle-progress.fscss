@@ -1,0 +1,4 @@
+# xfcmds/disable.xfcmd
+# liboff circle-progress
+say "Disabled {name}. Helper snippets were removed."
+say "Demo folder circle-progress-demo/ was kept. Delete it if you do not need it."
