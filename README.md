@@ -228,6 +228,13 @@ body { background: var(--progress-color-bg); color: var(--progress-color-value);
 | Back-compatible | Works from FSCSS 1.1.15 up |
 
 ---
+## FSCSS IDE
+
+```
+libon circle-progress
+```
+Installs helper snippets and demo
+---
 
 ## Related
 
